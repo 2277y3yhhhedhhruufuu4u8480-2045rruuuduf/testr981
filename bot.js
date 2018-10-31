@@ -13,7 +13,7 @@ client.on('message', msg => {
 
 
 const adminprefix = "!";
-const devs = ['311603535466856458','358664999914438658'];
+const devs = ['490891548494659586','490891548494659586'];
 client.on('message', message => {
  var argresult = message.content.split(` `).slice(1).join(' ');
    if (!devs.includes(message.author.id)) return;
@@ -31,10 +31,10 @@ return message.reply("**لا يمكنك تغيير الاسم يجب عليك ا
 client.user.setAvatar(argresult);
  message.channel.sendMessage(`**${argresult}** : تم تغير صورة البوت`);
      } else    
-if (message.content.startsWith(adminprefix + 'setT')) {
+if (message.content.startsWith(adminprefix + 'streaming')) {
  client.user.setGame(argresult, "https://www.twitch.tv/idk");//حقوق دايموند كودز
    message.channel.sendMessage(`**تم تغيير تويتش البوت إلى  ${argresult}**`)//حقوق دايموند كودز
 }
 });
  
-client.login("NTA2ODQ5NDMxNDg5MDg1NDYx.DroIDA.my6ymVXH-ModEWWrk91la14-5dI");
+client.login("NTA3MjQ1NjA3MDMxNjY4Nzc2.DruARA.uc2ZA7MUdwi4L8hG6ZZYQI--RR0");
