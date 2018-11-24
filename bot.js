@@ -94,4 +94,4 @@ hero.on('message',async message => {
     }, ms("1d"));
   }
 });
-client.login("توكن")
+client.login("process.env.BOT_TOKEN")
